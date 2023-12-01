@@ -6,7 +6,7 @@
   },
   "servers": [
     {
-      "url": "",
+      "url": "http://localhost",
       "description": "Generated server url"
     }
   ],
@@ -14,7 +14,7 @@
     "/test/": {
       "get": {
         "tags": [
-          "hello-controller"
+          "list-controller"
         ],
         "operationId": "foo",
         "responses": {
